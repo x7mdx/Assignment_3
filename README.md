@@ -77,8 +77,16 @@
 ## Limitations of System
 
 1. Modifying an order will remove the discount
-2. No Varification of Email
+2. No Varification of Email and Email Validator
 3. Email can't be changed.
+4. Minor Bugs
+
+
+## Future Planings
+1. Better GUI Design
+2. Removing All known minor bugs
+3. Email Varifications
+   
 
 
 
