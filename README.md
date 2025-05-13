@@ -1,5 +1,5 @@
 # Race Ticketing System
-
+The Grand Prix Experience is a premier destination for motorsport enthusiasts, attracting millions of fans annually to witness the thrill of Formula One racing. As the event continues to grow and introduce new experiences, there is a need for a comprehensive ticket booking system to streamline the purchasing process, enhance fan engagement, and manage attendance effectively. The new system will allow fans to purchase tickets online and at the venue, manage reservations, and access real-time information about races, events, and venue services.
 ## UML
 ![UML](https://raw.githubusercontent.com/x7mdx/Assignment_3/refs/heads/main/UML.png)
 
