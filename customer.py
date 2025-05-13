@@ -10,9 +10,9 @@ class Customer(User):
     def view_orders(self):
         return self.purchase_history
 
-    def update_profile(self, new_name=None, new_email=None):
+    def update_profile(self, new_name=None, new_password=None):
         if new_name:
             self.name = new_name
-        if new_email:
-            self.email = new_email
+        if new_password:
+            self.password = new_password
         print("Profile updated successfully.")
