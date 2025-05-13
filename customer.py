@@ -16,7 +16,7 @@ class Customer(User):
         - password: Password for the customer account.
         """
         super().__init__(user_id, name, email, password)
-        self.purchase_history = []  # Stores order IDs for this customer
+        self.purchase_history = []  
 
     def add_order(self, order_id):
         """
