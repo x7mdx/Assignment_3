@@ -80,3 +80,13 @@
 3. Email can't be changed.
 
 
+
+
+## SAVED CUSTOMERS IN Binary File
+1. Email: something@gmail.com, Password: something
+2. Email: something2@gmail.com, Password: something2
+
+## ADMIN Credentials
+1. Email: admin@raceTicket.sys, Password: UAE@123@
+
+
