@@ -69,6 +69,7 @@
     ![image](https://github.com/user-attachments/assets/8ed9b484-469a-4331-a8df-e3f8b5707d4f)
 
 13. Manage Discounts
+
     ![image](https://github.com/user-attachments/assets/f1c0c7f1-2daa-43d0-9957-bd7856d7e652)
 
 
