@@ -62,12 +62,13 @@ class LoginPage(tk.Frame):
 
        
         user = self.users.get(email)
-        print(user, password, user["password"])
         if user and user["password"] == password:
             self.controller.current_user = Customer(user["user_id"], user["name"], email, password)
             self.controller.frames["CustomerDashboard"] = CustomerDashboard(parent=self.controller, controller=self.controller)
 
             messagebox.showinfo("Login Successful", f"Welcome back, {email}!")
+            self.email_entry.delete(0, tk.END)
+            self.password_entry.delete(0, tk.END)
             self.controller.show_frame("LoginPage", "CustomerDashboard")
         else:
             messagebox.showerror("Login Failed", "Invalid credentials")
@@ -117,5 +118,8 @@ class RegisterPage(tk.Frame):
         user_id = len(users) + 1
         users[email] = {"name": name, "password": password, "user_id": user_id}
         save_users(users)
+        self.name_entry.delete(0, tk.END)
+        self.email_entry.delete(0, tk.END)
+        self.password_entry.delete(0, tk.END)
         messagebox.showinfo("Success", "Account created successfully!")
         self.controller.show_frame("RegisterPage", "LoginPage")
